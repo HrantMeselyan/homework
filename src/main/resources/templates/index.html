@@ -6,6 +6,14 @@
 </head>
 <body>
 <h1>hello</h1>
+<div th:if="${currentUser == null}">
+    <a href="/user/register" th:if="${user == null}">Register</a>
+    <a href="/customLogin" th:if="${user == null}">Login</a>
+</div>
+<div th:if="${currentUser != null}">
+    <a href="/logout" th:if="${currentUser != null}">Logout</a>
+</div>
+
 <a href="/cart">View Cart</a>
 <div th:each="product : ${products}">
     <div>
