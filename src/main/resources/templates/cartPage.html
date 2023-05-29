@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cart page</title>
+</head>
+<body>
+<h1>Cart</h1>
+<h3 th:text="${currentUser.name}"></h3>
+<div th:each="cart : ${carts}">
+    <div th:each="product : ${cart.productList}">
+        <span th:text="${product.title}"></span>
+        <span th:text="${product.price}"></span>
+    </div>
+</div>
+<form action="/order/add" method="POST">
+    <div th:each="cart : ${carts}">
+        <input type="hidden" th:each="product : ${cart.productList}" name="productId" th:value="${product.id}">
+    </div>
+    <button type="submit">Buy</button>
+</form>
+</body>
+
+</html>
