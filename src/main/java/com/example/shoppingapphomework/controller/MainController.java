@@ -2,9 +2,9 @@ package com.example.shoppingapphomework.controller;
 
 import com.example.shoppingapphomework.entity.User;
 import com.example.shoppingapphomework.entity.UserType;
-import com.example.shoppingapphomework.service.mainImpl.MainService;
+import com.example.shoppingapphomework.service.MainService;
 import com.example.shoppingapphomework.security.CurrentUser;
-import com.example.shoppingapphomework.service.productImpl.ProductService;
+import com.example.shoppingapphomework.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

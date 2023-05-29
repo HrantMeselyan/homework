@@ -3,7 +3,7 @@ package com.example.shoppingapphomework.controller;
 
 import com.example.shoppingapphomework.entity.User;
 import com.example.shoppingapphomework.security.CurrentUser;
-import com.example.shoppingapphomework.service.UserImpl.UserService;
+import com.example.shoppingapphomework.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;

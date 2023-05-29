@@ -1,4 +1,4 @@
-package com.example.shoppingapphomework.service.cartImpl;
+package com.example.shoppingapphomework.service;
 
 import com.example.shoppingapphomework.entity.Cart;
 import com.example.shoppingapphomework.entity.Product;

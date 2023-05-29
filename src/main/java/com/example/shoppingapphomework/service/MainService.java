@@ -1,4 +1,4 @@
-package com.example.shoppingapphomework.service.mainImpl;
+package com.example.shoppingapphomework.service;
 
 import java.io.IOException;
 

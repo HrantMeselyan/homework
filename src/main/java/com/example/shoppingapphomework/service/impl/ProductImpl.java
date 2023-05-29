@@ -1,7 +1,8 @@
-package com.example.shoppingapphomework.service.productImpl;
+package com.example.shoppingapphomework.service.impl;
 
 import com.example.shoppingapphomework.entity.Product;
 import com.example.shoppingapphomework.repository.ProductRepository;
+import com.example.shoppingapphomework.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

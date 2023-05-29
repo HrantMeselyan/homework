@@ -1,4 +1,4 @@
-package com.example.shoppingapphomework.service.OrderImpl;
+package com.example.shoppingapphomework.service;
 
 import com.example.shoppingapphomework.security.CurrentUser;
 

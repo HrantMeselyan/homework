@@ -1,9 +1,10 @@
-package com.example.shoppingapphomework.service.UserImpl;
+package com.example.shoppingapphomework.service.impl;
 
 
 import com.example.shoppingapphomework.entity.User;
 import com.example.shoppingapphomework.entity.UserType;
 import com.example.shoppingapphomework.repository.UserRepository;
+import com.example.shoppingapphomework.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

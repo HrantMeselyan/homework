@@ -1,4 +1,4 @@
-package com.example.shoppingapphomework.service.UserImpl;
+package com.example.shoppingapphomework.service;
 
 
 import com.example.shoppingapphomework.entity.User;

@@ -1,7 +1,7 @@
 package com.example.shoppingapphomework.controller;
 
 import com.example.shoppingapphomework.security.CurrentUser;
-import com.example.shoppingapphomework.service.OrderImpl.OrderService;
+import com.example.shoppingapphomework.service.OrderService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;

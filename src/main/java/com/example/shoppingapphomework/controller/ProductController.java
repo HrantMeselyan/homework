@@ -2,7 +2,7 @@ package com.example.shoppingapphomework.controller;
 
 import com.example.shoppingapphomework.entity.Product;
 import com.example.shoppingapphomework.categoryImpl.CategoryService;
-import com.example.shoppingapphomework.service.productImpl.ProductService;
+import com.example.shoppingapphomework.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

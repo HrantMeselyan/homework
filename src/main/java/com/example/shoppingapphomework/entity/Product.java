@@ -10,7 +10,7 @@ public class Product {
     @Id
     private int id;
     private String title;
-    private int price;
+    private double price;
     private String description;
     private String imgPath;
     @ManyToOne

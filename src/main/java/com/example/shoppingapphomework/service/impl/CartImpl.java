@@ -1,4 +1,4 @@
-package com.example.shoppingapphomework.service.cartImpl;
+package com.example.shoppingapphomework.service.impl;
 
 import com.example.shoppingapphomework.entity.Cart;
 import com.example.shoppingapphomework.entity.Product;
@@ -6,6 +6,7 @@ import com.example.shoppingapphomework.entity.User;
 import com.example.shoppingapphomework.repository.CartRepository;
 import com.example.shoppingapphomework.repository.ProductRepository;
 import com.example.shoppingapphomework.security.CurrentUser;
+import com.example.shoppingapphomework.service.CartService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -1,5 +1,6 @@
-package com.example.shoppingapphomework.service.mainImpl;
+package com.example.shoppingapphomework.service.impl;
 
+import com.example.shoppingapphomework.service.MainService;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Value;

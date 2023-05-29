@@ -1,12 +1,12 @@
-package com.example.shoppingapphomework.service.OrderImpl;
+package com.example.shoppingapphomework.service.impl;
 
-import com.example.shoppingapphomework.entity.Cart;
 import com.example.shoppingapphomework.entity.Order;
 import com.example.shoppingapphomework.entity.Product;
 import com.example.shoppingapphomework.repository.CartRepository;
 import com.example.shoppingapphomework.repository.OrderRepository;
 import com.example.shoppingapphomework.repository.ProductRepository;
 import com.example.shoppingapphomework.security.CurrentUser;
+import com.example.shoppingapphomework.service.OrderService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

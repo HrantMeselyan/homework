@@ -1,4 +1,4 @@
-package com.example.shoppingapphomework.service.productImpl;
+package com.example.shoppingapphomework.service;
 
 import com.example.shoppingapphomework.entity.Product;
 import org.springframework.web.multipart.MultipartFile;
