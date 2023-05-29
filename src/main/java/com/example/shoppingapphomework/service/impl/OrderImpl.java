@@ -30,14 +30,22 @@ public class OrderImpl implements OrderService {
         order.setDateTime(LocalDateTime.now());
         order.setUser(currentUser.getUser());
         List<Product> productList = new ArrayList<>();
+
         for (Integer productId : productIds) {
-            Optional<Product> byId = productRepository.findById(productId);
-            Product product = byId.get();
-            productList.add(product);
+            Optional<Product> productOptional = productRepository.findById(productId);
+            if (productOptional.isPresent()) {
+                Product product = productOptional.get();
+                if (!productList.contains(product)) {
+                    productList.add(product);
+                }
+            }
         }
+
         order.setProductList(productList);
         orderRepository.save(order);
+
         int userId = currentUser.getUser().getId();
         cartRepository.deleteByUserId(userId);
     }
+
 }
